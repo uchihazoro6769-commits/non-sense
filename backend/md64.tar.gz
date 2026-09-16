@@ -1,0 +1,44 @@
+--2026-09-15 20:47:59--  https://go.dev/dl/go.1.23.12.linux
+Resolving go.dev (go.dev)... 216.239.32.21, 216.239.34.21, 216.239.36.21, ...
+Connecting to go.dev (go.dev)|216.239.32.21|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 280 [text/html]
+Saving to: ‘go.1.23.12.linux’
+
+     0K                                                       100% 2.08M=0s
+
+2026-09-15 20:48:00 (2.08 MB/s) - ‘go.1.23.12.linux’ saved [280/280]
+
+--2026-09-15 20:48:29--  https://go.dev/dl/go.1.23.12.linux
+Resolving go.dev (go.dev)... 216.239.36.21, 216.239.38.21, 216.239.34.21, ...
+Connecting to go.dev (go.dev)|216.239.36.21|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 280 [text/html]
+Saving to: ‘go.1.23.12.linux.2’
+
+     0K                                                       100% 3.17M=0s
+
+2026-09-15 20:48:30 (3.17 MB/s) - ‘go.1.23.12.linux.2’ saved [280/280]
+
+--2026-09-15 20:54:09--  https://go.dev/dl/go1.23.12.linux
+Resolving go.dev (go.dev)... 216.239.36.21, 216.239.34.21, 216.239.32.21, ...
+Connecting to go.dev (go.dev)|216.239.36.21|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 278 [text/html]
+Saving to: ‘go1.23.12.linux’
+
+     0K                                                       100% 3.99M=0s
+
+2026-09-15 20:54:10 (3.99 MB/s) - ‘go1.23.12.linux’ saved [278/278]
+
+--2026-09-15 20:54:19--  https://go.dev/dl/go1.23.12.linux
+Resolving go.dev (go.dev)... 216.239.32.21, 216.239.34.21, 216.239.36.21, ...
+Connecting to go.dev (go.dev)|216.239.32.21|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 278 [text/html]
+Saving to: ‘go1.23.12.linux.1’
+
+     0K                                                       100% 3.30M=0s
+
+2026-09-15 20:54:20 (3.30 MB/s) - ‘go1.23.12.linux.1’ saved [278/278]
+

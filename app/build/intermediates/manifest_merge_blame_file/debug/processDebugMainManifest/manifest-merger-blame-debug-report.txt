@@ -1,0 +1,151 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ryuzen.chat"
+4    android:versionCode="2"
+5    android:versionName="0.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+11-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:3:5-77
+11-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:3:22-74
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:5:5-71
+13-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:5:22-68
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:6:5-65
+14-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:6:22-62
+15    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+15-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:7:5-80
+15-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+16-->[androidx.biometric:biometric:1.2.0-alpha05] /home/ryuzen/.gradle/caches/8.9/transforms/c886782e6926aff833b2efc5facd137d/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:22:5-72
+16-->[androidx.biometric:biometric:1.2.0-alpha05] /home/ryuzen/.gradle/caches/8.9/transforms/c886782e6926aff833b2efc5facd137d/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:22:22-69
+17    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+17-->[androidx.biometric:biometric:1.2.0-alpha05] /home/ryuzen/.gradle/caches/8.9/transforms/c886782e6926aff833b2efc5facd137d/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:25:5-74
+17-->[androidx.biometric:biometric:1.2.0-alpha05] /home/ryuzen/.gradle/caches/8.9/transforms/c886782e6926aff833b2efc5facd137d/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:25:22-71
+18
+19    <permission
+19-->[androidx.core:core:1.13.1] /home/ryuzen/.gradle/caches/8.9/transforms/3f4414e7258e46b34c51e68305e2ec6f/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+20        android:name="com.ryuzen.chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.13.1] /home/ryuzen/.gradle/caches/8.9/transforms/3f4414e7258e46b34c51e68305e2ec6f/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.13.1] /home/ryuzen/.gradle/caches/8.9/transforms/3f4414e7258e46b34c51e68305e2ec6f/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.ryuzen.chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.13.1] /home/ryuzen/.gradle/caches/8.9/transforms/3f4414e7258e46b34c51e68305e2ec6f/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.13.1] /home/ryuzen/.gradle/caches/8.9/transforms/3f4414e7258e46b34c51e68305e2ec6f/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:8:5-22:19
+26        android:allowBackup="false"
+26-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:9:9-36
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.13.1] /home/ryuzen/.gradle/caches/8.9/transforms/3f4414e7258e46b34c51e68305e2ec6f/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:label="Veyra"
+30-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:11:9-30
+31        android:supportsRtl="true"
+31-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:12:9-35
+32        android:theme="@style/Theme.RyuzenChat"
+32-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:13:9-48
+33        android:usesCleartextTraffic="true" >
+33-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:10:9-44
+34        <activity
+34-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:14:9-21:20
+35            android:name="com.ryuzen.chat.MainActivity"
+35-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:15:13-41
+36            android:exported="true" >
+36-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:16:13-36
+37            <intent-filter>
+37-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:17:13-20:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:18:17-69
+38-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:18:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:19:17-77
+40-->/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/AndroidManifest.xml:19:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->[androidx.compose.ui:ui-tooling-android:1.7.8] /home/ryuzen/.gradle/caches/8.9/transforms/4f2cc10ef8aeaa4ff0332863fcec3205/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+44            android:name="androidx.compose.ui.tooling.PreviewActivity"
+44-->[androidx.compose.ui:ui-tooling-android:1.7.8] /home/ryuzen/.gradle/caches/8.9/transforms/4f2cc10ef8aeaa4ff0332863fcec3205/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+45            android:exported="true" />
+45-->[androidx.compose.ui:ui-tooling-android:1.7.8] /home/ryuzen/.gradle/caches/8.9/transforms/4f2cc10ef8aeaa4ff0332863fcec3205/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+46
+47        <provider
+47-->[androidx.emoji2:emoji2:1.3.0] /home/ryuzen/.gradle/caches/8.9/transforms/e9a4de5f87829d8e56de87ff35dfed60/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+48            android:name="androidx.startup.InitializationProvider"
+48-->[androidx.emoji2:emoji2:1.3.0] /home/ryuzen/.gradle/caches/8.9/transforms/e9a4de5f87829d8e56de87ff35dfed60/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+49            android:authorities="com.ryuzen.chat.androidx-startup"
+49-->[androidx.emoji2:emoji2:1.3.0] /home/ryuzen/.gradle/caches/8.9/transforms/e9a4de5f87829d8e56de87ff35dfed60/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+50            android:exported="false" >
+50-->[androidx.emoji2:emoji2:1.3.0] /home/ryuzen/.gradle/caches/8.9/transforms/e9a4de5f87829d8e56de87ff35dfed60/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+51            <meta-data
+51-->[androidx.emoji2:emoji2:1.3.0] /home/ryuzen/.gradle/caches/8.9/transforms/e9a4de5f87829d8e56de87ff35dfed60/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+52-->[androidx.emoji2:emoji2:1.3.0] /home/ryuzen/.gradle/caches/8.9/transforms/e9a4de5f87829d8e56de87ff35dfed60/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+53                android:value="androidx.startup" />
+53-->[androidx.emoji2:emoji2:1.3.0] /home/ryuzen/.gradle/caches/8.9/transforms/e9a4de5f87829d8e56de87ff35dfed60/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+54            <meta-data
+54-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/ryuzen/.gradle/caches/8.9/transforms/ef3f1b8cf943e0590111f6b7a018d36f/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+55-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/ryuzen/.gradle/caches/8.9/transforms/ef3f1b8cf943e0590111f6b7a018d36f/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+56                android:value="androidx.startup" />
+56-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/ryuzen/.gradle/caches/8.9/transforms/ef3f1b8cf943e0590111f6b7a018d36f/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+57            <meta-data
+57-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+58                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+58-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+59                android:value="androidx.startup" />
+59-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+60        </provider>
+61
+62        <receiver
+62-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+63            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+63-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+64            android:directBootAware="false"
+64-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+65            android:enabled="true"
+65-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+66            android:exported="true"
+66-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+67            android:permission="android.permission.DUMP" >
+67-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+68            <intent-filter>
+68-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+69                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+69-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+69-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+70            </intent-filter>
+71            <intent-filter>
+71-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+72                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+72-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+72-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+73            </intent-filter>
+74            <intent-filter>
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+75                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+76            </intent-filter>
+77            <intent-filter>
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+78                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/ryuzen/.gradle/caches/8.9/transforms/5473644ba0bd49ef81962339d39248f6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+79            </intent-filter>
+80        </receiver>
+81    </application>
+82
+83</manifest>

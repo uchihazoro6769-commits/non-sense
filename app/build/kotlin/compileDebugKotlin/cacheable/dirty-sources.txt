@@ -1,0 +1,14 @@
+/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/java/com/ryuzen/chat/ChatScreen.kt
+/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/java/com/ryuzen/chat/SecurityGuard.kt
+/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/java/com/ryuzen/chat/GroupChannel.kt
+/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/java/com/ryuzen/chat/BusinessBotPayments.kt
+/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/java/com/ryuzen/chat/SecurityCards.kt
+/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/java/com/ryuzen/chat/MessageBubble.kt
+/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/java/com/ryuzen/chat/ConversationListScreen.kt
+/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/java/com/ryuzen/chat/ChatMessage.kt
+/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/java/com/ryuzen/chat/SecurityModels.kt
+/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/java/com/ryuzen/chat/ExtraFeaturesUI.kt
+/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/java/com/ryuzen/chat/ReportAndAntiSpam.kt
+/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/java/com/ryuzen/chat/Moderation.kt
+/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/java/com/ryuzen/chat/ConversationInfoScreen.kt
+/home/ryuzen/Desktop/Veyra_Messenger_v15_server_architecture/app/src/main/java/com/ryuzen/chat/MainActivity.kt

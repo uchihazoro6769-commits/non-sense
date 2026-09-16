@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.RyuzenChat" parent="android:style/Theme.Material.Light.NoActionBar" />
+</resources>
